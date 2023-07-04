@@ -1,0 +1,343 @@
+*{
+    margin:0;
+    padding:0;
+    font-size:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: black; */
+   }
+   html{
+     scroll-behavior: smooth;
+   }
+   .fullbg{
+     background-color:black;
+   }
+   .topnav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position:sticky;
+        background-color: black;
+        color:white;
+        top:0;
+        z-index: 1000;
+        padding:1rem;
+        text-decoration: none;
+        font-weight: bolder;
+   }
+   .left{
+    text-decoration: none;
+    color:white;
+    width: 20% ;
+   }
+   .right{
+    text-decoration: none;
+    color:white;
+    width:10%;
+    display:flex;
+    justify-content:space-between;
+   }
+   .center{
+    text-decoration: none;
+    color:white;
+    width:70%;
+    display: flex;
+    justify-content:space-evenly;
+   }
+   .topnav .center a{
+    text-decoration: none;
+    color:white;
+   }
+   .topnav .right a{
+    text-decoration: none;
+    color:white;
+   }
+   .topnav .left a{
+    text-decoration: none;
+    color:white;
+   }
+  
+   .bg{
+     height: 100vh;
+     width: 100%;
+     /* background: url(https://marketplace.canva.com/EAFUYlM-eL0/1/0/1600w/canva-black-yellow-modern-cute-illustration-pizza-quote-food-facebook-cover-6H7lOJquOUM.jpg); */
+     background-image: url(https://i.ytimg.com/vi/3Z6TCicRLhs/maxresdefault.jpg);
+     background-position: center;
+     background-size: cover;
+     color:white;
+}
+.des{
+     z-index: 1000000;
+     padding:2rem;
+}
+.des p{
+     float:left;
+     
+}
+
+.des h1{
+     color: white;
+     font-size: 4rem;
+     width: 50%;
+     font-weight: bold;
+}
+.des>p{
+     width:50%;
+     font-size:1.5rem;
+}
+.Aboutsec{
+     padding-top: 50px;
+     background-color: black;
+     text-align: center;
+     color:white;
+     
+}
+.Aboutsec>hr{
+    margin:auto
+}
+.about{
+     display: flex;
+     flex-direction: row;
+     height:100vh;
+}
+.desabout p{
+     /* float:left; */
+     margin-left:80px;
+     text-align: justify;
+     font-weight: bold;
+}
+.image1{
+     padding:20px;
+     padding-right: 80px;
+     padding-bottom: 100px;
+     border-radius: 5px;
+     border:1px  lightblue;
+}
+.desabout>hr{
+    margin-left:80px;
+}
+.hero h1{
+     padding-top: 5px;
+     color:white;
+     text-align: center;
+}
+.maindescription>hr{
+     margin:auto;
+}
+.imagegrid{
+          font-family: Ruda;
+          display: grid;
+          padding: 2rem;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+          align-items: center;
+          margin: 0 auto;
+}
+.imagegrid img{
+     text-align: left;
+     height: 20vh;
+     width: 10vw;
+     margin-right: 2rem;
+}
+
+ .imagegrid .pizzaimage p{
+     text-align: left;
+ }
+ .imagegrid h3{
+     color: goldenrod;
+ }
+ .imagegrid p{
+     color:white;
+ }
+ 
+.pizzadecscription{
+     padding-top: 1vw;
+}
+ .imagegird .items{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .caros{
+     width:800px;
+ }
+ .caros h1{
+     color:white;
+     text-align: center;
+ }
+ .caros{
+     margin:auto;
+ }
+ .car hr{
+     margin:auto;
+ }
+ .imagegallery{
+     width: 60%;
+     margin: 2rem auto; 
+     box-sizing: border-box;
+     font-size: 62.5%; 
+     line-height: 1.6;
+ }
+  .gallery {
+     display: grid;
+     grid-template-columns: repeat(8, 1fr);
+     grid-template-rows: repeat(9, 5vw);
+     grid-gap: 1.5rem; 
+     grid-column-gap: 5px;
+     grid-row-gap: 1px; 
+     margin: auto;
+   }
+   
+   .gallery__img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     display: block; 
+     border-radius: 3px;
+   }
+   
+   .gallery__item--1 {
+     grid-column-start: 1;
+     grid-column-end: 4;
+     grid-row-start: 1;
+     grid-row-end: 9;
+   }
+   
+   .gallery__item--2 {
+     grid-column-start: 4;
+     grid-column-end: 6;
+     grid-row-start: 1;
+     grid-row-end: 4;
+    
+   }
+   
+   .gallery__item--3 {
+     grid-column-start: 4;
+     grid-column-end: 6;
+     grid-row-start: 4;
+     grid-row-end: 7;
+   
+    
+   }
+   
+   .gallery__item--4 {
+     grid-column-start: 4;
+     grid-column-end: 6;
+     grid-row-start: 7;
+     grid-row-end: 9;
+   
+     
+   }
+   
+   .gallery__item--5 {
+     grid-column-start: 6;
+     grid-column-end: 8;
+     grid-row-start: 1;
+     grid-row-end: 5;
+   
+    
+   }
+   
+   .gallery__item--6 {
+     grid-column-start: 6;
+     grid-column-end: 8;
+     grid-row-start: 5;
+     grid-row-end: 9;
+   
+   }
+.car1 h1{
+     padding-top: 50px;
+     color:white;
+     text-align: center;
+ }
+ .car1{
+     margin:auto;
+ }
+ .car1 hr{
+     margin:auto;
+ }
+
+ .findus h1{
+     color:white;
+     text-align: center;
+ }
+ .findus{
+     margin:auto;
+ }
+ .findus hr{
+     margin:auto;
+ }
+.map{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin:auto;  
+}
+.gmap{
+     padding:20px;
+     padding-right: 170px;  
+     padding-bottom: 30x;
+}
+
+.maptext{
+     padding:20px;
+     padding-left:30px;
+     color:white;
+}
+.loc{
+     padding-top:30x;
+     display: flex;
+}
+.loctext{
+     padding-left: 33px;
+}
+.pointer{
+     padding-left: 20px;
+}
+.call{
+     display: flex;;
+}
+.num{
+     padding-left: 10px;
+}
+.callicon{
+     padding-top: 10px;
+     padding-left: 20px;
+}
+.mail{
+     display: flex;;
+}
+.fincall{
+     /* float:right; */
+     display: flex;
+
+}
+.envelop{
+     position: absolute;
+     right: 170px;
+     color:white;
+     /* background-color: black; */
+}
+.final{
+     display:flex;
+     flex-direction: row;
+     background-color: black;
+}
+.finish{
+     display: flex;
+}
+.fincallicon{
+     padding: 10px;
+
+}
+.footer{
+     background-color: black;
+}
+.mailid>p{
+     padding-left: 10px;
+}
+.man{
+     padding:35px;
+}
+.bottom{
+     padding-top: 20px;
+}
